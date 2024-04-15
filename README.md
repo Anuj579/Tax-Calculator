@@ -24,6 +24,8 @@ The Tax Calculator is a web application that helps users calculate their overall
 ![Screenshot 1](screenshots/screenshot1.png)
 ![Screenshot 2](screenshots/screenshot2.png)
 ![Screenshot 3](screenshots/screenshot3.png)
+![Screenshot 3](screenshots/screenshot4.png)
+![Screenshot 3](screenshots/screenshot5.png)
 
 ## Local Setup
 To run the Tax Calculator locally on your machine:
