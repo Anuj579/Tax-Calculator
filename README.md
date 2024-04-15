@@ -34,5 +34,5 @@ To run the Tax Calculator locally on your machine:
 3. Open the `index.html` file in your web browser.
 
 ## Feedback
-If you have any feedback or suggestions, please feel free to or [reach out to me](mailto:anujchaudhary3112@gmail.com).
+If you have any feedback or suggestions, please feel free to [reach out to me](mailto:anujchaudhary3112@gmail.com).
 
