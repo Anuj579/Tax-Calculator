@@ -15,7 +15,7 @@ The Tax Calculator is a web application that helps users calculate their overall
 - **Over 60 Years**: 10% tax on taxable income exceeding 8 lakhs.
 
 ## How to Use
-1. Visit the live version of the Tax Calculator: [Live Link](https://yourwebapp.com)
+1. Visit the live version of the Tax Calculator: [Live Link](https://taxcalculator99.netlify.app/)
 2. Enter your gross annual income, extra income, select your age group, and add applicable deductions.
 3. Click on the "Submit" button to calculate your overall income after tax deductions.
 4. View the result in the modal window.
