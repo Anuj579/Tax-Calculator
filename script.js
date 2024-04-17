@@ -1,3 +1,7 @@
+AOS.init({
+  duration: 1500,
+})
+
 //Initializing tooltip
 const tooltipTriggerList = document.querySelectorAll(
   '[data-bs-toggle="tooltip"]'

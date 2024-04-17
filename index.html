@@ -9,16 +9,39 @@
     <!-- Link to Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Link to AOS -->
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+
     <!-- Link to Font awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 
     <!-- Link to Custom CSS -->
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
     <h1 class="text-center fw-bold text-white p-4 mb-5">TAX CALCULATOR</h1>
-    <div class="mx-auto my-5 form-div rounded">
+    <div class="container text-white">
+        <p>Welcome to our Tax Calculator tool! This simple yet powerful calculator helps you estimate your overall income after tax deductions based on your gross annual income, extra income, age group, and applicable deductions.</p>
+        <h2>How It Works</h2>
+        <ul>
+            <li><strong>Gross Annual Income:</strong> Enter your total annual salary before any deductions.</li>
+            <li><strong>Extra Income:</strong> Include any additional income sources such as bonuses, commissions, or investment returns.</li>
+            <li><strong>Age Group:</strong> Select your age group from the options provided. Different tax rates apply based on your age.</li>
+            <li><strong>Deductions:</strong> Add any eligible deductions or exemptions that can be subtracted from your gross income before calculating taxes.</li>
+        </ul>
+        <p>Once you input all the necessary information, the calculator computes your total income after deducting applicable taxes.</p>
+        <h2>Tax Calculation</h2>
+        <p>Taxes are calculated based on your age group:</p>
+        <ul>
+            <li>Individuals under 40 years old: Tax rates apply at 30%.</li>
+            <li>Individuals aged between 40 and 60 years: Tax rates apply at 40%.</li>
+            <li>Individuals over 60 years old: Tax rates apply at 10%.</li>
+        </ul>
+        <p>It's important to note that there is no tax levied on incomes below 8 lakhs.</p>
+    </div>
+    <div class="mx-auto my-5 form-div rounded" data-aos="zoom-in">
         <form class="m-2" id="form">
             <div class="mb-3">
                 <label class="fw-medium text-white">Enter gross annual Income <i
@@ -89,12 +112,23 @@
             </div>
         </div>
     </div>
+    <footer class="py-4 text-white">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024, Tax Calculator. All rights reserved.</p>
+            <p class="mb-0">Designed by <a href="https://github.com/anuj579" target="_blank">AnujChaudhary</a></p>
+        </div>
+    </footer>
+    
 </body>
 
 <!-- Link to Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+<!-- Link to AOS JS -->
+<script src=" https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
 <!-- Link to Custom JS -->
 <script src="script.js"></script>
+
 
 </html>

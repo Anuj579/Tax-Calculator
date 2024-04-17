@@ -20,13 +20,6 @@ The Tax Calculator is a web application that helps users calculate their overall
 3. Click on the "Submit" button to calculate your overall income after tax deductions.
 4. View the result in the modal window.
 
-## Screenshots
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
-![Screenshot 3](screenshots/screenshot4.png)
-![Screenshot 3](screenshots/screenshot5.png)
-
 ## Local Setup
 To run the Tax Calculator locally on your machine:
 1. Clone this GitHub repository:
