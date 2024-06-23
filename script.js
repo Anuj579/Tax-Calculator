@@ -134,9 +134,10 @@ form.addEventListener("submit", function (event) {
 });
 
 // For background Image
-function updateVh() {
-  let vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
+function updateBodyHeight() {
+  document.body.style.height = `${window.innerHeight}px`;
 }
-window.addEventListener('resize', updateVh);
-updateVh();
+
+// Update the height initially and on resize
+window.addEventListener('resize', updateBodyHeight);
+updateBodyHeight();
